@@ -1,6 +1,6 @@
 # Web3 Exchange Website
 
-### First of all, hello, here a design taken from an envato element was decoded using vite-ts, you can take it and use it on your website.
+#### First of all, hello, here a design taken from an envato element was decoded using vite-ts, you can take it and use it on your website.
 
 ## Installation
 
