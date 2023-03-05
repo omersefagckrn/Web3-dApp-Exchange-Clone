@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: Ranille;
+		src: url('/src/assets/fonts/Ranille.otf') format('truetype');
+	}
+}
+
+html {
+	@apply font-Ranille;
+}
