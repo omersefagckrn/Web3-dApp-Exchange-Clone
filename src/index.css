@@ -10,5 +10,18 @@
 }
 
 html {
-	@apply font-Ranille;
+	@apply font-Ranille m-0 p-0;
+}
+
+.p-dialog-title {
+	@apply text-black !important;
+}
+
+.p-dialog-header-icon {
+	@apply text-black !important;
+}
+
+.p-dialog-header,
+.p-dialog-content {
+	@apply rounded-none !important;
 }

@@ -1,9 +1,10 @@
 import { FC } from 'react';
+import { Exchange } from './pages';
 
 const App: FC = () => {
 	return (
 		<>
-			<div className='font-bold text-2xl'>Hi first,commit.</div>
+			<Exchange />
 		</>
 	);
 };
