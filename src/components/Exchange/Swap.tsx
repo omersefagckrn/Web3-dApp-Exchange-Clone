@@ -15,7 +15,7 @@ const Swap: FC = () => {
 					<img src={ArrowDownIcon} alt='arrow' />
 				</div>
 			</div>
-			<div className='flex items-center justify-between w-full relative'>
+			<div className='flex items-center justify-between w-full relative space-x-2'>
 				<AppInput placeholder='0.00' />
 				<div className='px-4 pt-1 text-center border border-black bg-white absolute right-4 text-xs leading-0'>MAX</div>
 			</div>
