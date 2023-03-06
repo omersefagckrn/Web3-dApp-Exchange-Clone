@@ -20,8 +20,8 @@ const Navigation: FC = () => {
 						<div className='font-normal text-xs'>Explorer</div>
 						<img src={ArrowDownIcon} alt='arrow-down' />
 					</div>
-					<AppButton className='bg-white' text='BNB Chain' icon={BnbIcon} />
-					<AppButton onClick={() => setVisible(true)} className='bg-purple' text='Connect Wallet' />
+					<AppButton onClick={() => setVisible(true)} className='bg-white' text='BNB Chain' icon={BnbIcon} />
+					<AppButton className='bg-purple' text='Connect Wallet' />
 				</div>
 			</div>
 		</>
